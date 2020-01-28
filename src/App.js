@@ -4,6 +4,7 @@ import { Route, Switch, BrowserRouter } from "react-router-dom";
 
 import Home from "./containers/Home/Home";
 import "./bootstrap.min.css"
+import 'antd/dist/antd.css';
 import Layout from "./components/layout/layout";
 function App() {
   return (
